@@ -1,0 +1,148 @@
+﻿  Aladdin.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Aladdin.cpp(90,41): warning C4305: 'argument': truncation from 'double' to 'FLOAT'
+  AladdinAnimation.cpp
+  AladinState.cpp
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Aladdin.cpp(94,40): warning C4305: 'argument': truncation from 'double' to 'FLOAT'
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Aladdin.cpp(94,40): warning C4305: C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Aladdin.cpp(94,40): warning C4305: C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  Animation.cpp
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\AladinState.cpp(87,36): warning C4244: '=': conversion from 'FLOAT' to 'int', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\AladinState.cpp(87,36): warning C4244: C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Animation.cpp(21,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Animation.cpp(45,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Animation.cpp(54,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Drill.cpp
+  Bat.cpp
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Animation.cpp(83,9): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Animation.cpp(83,9): warning C4244: C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Animation.cpp(83,9): warning C4244: C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Bat.cpp(13,31): warning C4305: 'argument': truncation from 'double' to 'float'
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Bat.cpp(17,31): warning C4305: 'argument': truncation from 'double' to 'float'
+  Brick.cpp
+  Cell.cpp
+  Collision.cpp
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Bat.cpp(25,31): warning C4305: 'argument': truncation from 'double' to 'float'
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Bat.cpp(25,31): warning C4305: C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Bat.cpp(25,31): warning C4305: C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Bat.cpp(25,31): warning C4305: C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Collision.cpp(18,28): warning C4244: '=': conversion from 'FLOAT' to 'LONG', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Collision.cpp(20,30): warning C4244: '=': conversion from 'FLOAT' to 'LONG', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Collision.cpp(23,32): warning C4244: '=': conversion from 'FLOAT' to 'LONG', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Collision.cpp(25,26): warning C4244: '=': conversion from 'FLOAT' to 'LONG', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Collision.cpp(64,24): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Collision.cpp(65,24): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Collision.cpp(69,25): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Collision.cpp(70,23): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Collision.cpp(75,26): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Collision.cpp(76,22): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Collision.cpp(80,23): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+  dsutil.cpp
+  Game.cpp
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Collision.cpp(81,25): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Collision.cpp(81,25): warning C4244: C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Game.cpp(79,53): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Game.cpp(79,42): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+  Graphic.cpp
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Game.cpp(147,15): warning C4244: 'argument': conversion from 'float' to 'DWORD', possible loss of data
+  Grid.cpp
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Graphic.cpp(171,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Graphic.cpp(171,12): warning C4244: C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Grid.cpp(79,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Grid.cpp(80,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Grid.cpp(81,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Grid.cpp(82,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Grid.cpp(107,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Grid.cpp(108,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Grid.cpp(109,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Guard.cpp
+  Keyboard.cpp
+  Map.cpp
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Grid.cpp(110,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Grid.cpp(110,11): warning C4244: C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Grid.cpp(110,11): warning C4244: C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Grid.cpp(110,11): warning C4244: C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Map.cpp(122,8): warning C4244: 'initializing': conversion from 'FLOAT' to 'int', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Map.cpp(123,8): warning C4244: 'initializing': conversion from 'FLOAT' to 'int', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Map.cpp(128,8): warning C4244: 'initializing': conversion from 'FLOAT' to 'int', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Map.cpp(129,8): warning C4244: 'initializing': conversion from 'FLOAT' to 'int', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Map.cpp(176,49): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Map.cpp(176,28): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Map.cpp(210,44): warning C4244: 'argument': conversion from 'FLOAT' to 'int', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Map.cpp(211,44): warning C4244: 'argument': conversion from 'FLOAT' to 'int', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Map.cpp(212,39): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Map3D.cpp
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Map.cpp(213,39): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Map.cpp(213,39): warning C4244: C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Map3D.cpp(122,8): warning C4244: 'initializing': conversion from 'FLOAT' to 'int', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Map3D.cpp(123,8): warning C4244: 'initializing': conversion from 'FLOAT' to 'int', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Map3D.cpp(128,8): warning C4244: 'initializing': conversion from 'FLOAT' to 'int', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Map3D.cpp(129,8): warning C4244: 'initializing': conversion from 'FLOAT' to 'int', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Map3D.cpp(143,13): warning C4244: 'initializing': conversion from 'FLOAT' to 'int', possible loss of data
+  MapObject.cpp
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Map3D.cpp(144,13): warning C4244: 'initializing': conversion from 'FLOAT' to 'int', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\MapObject.cpp(6,18): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\MapObject.cpp(7,25): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\MapObject.cpp(8,17): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+  MapObjectGroup.cpp
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\MapObject.cpp(9,25): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+  Object.cpp
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\MapObjectGroup.cpp(9,28): warning C4018: '<': signed/unsigned mismatch
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\MapObjectGroup.cpp(9,28): warning C4018: C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Object.cpp(28,26): warning C4244: '=': conversion from 'FLOAT' to 'LONG', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Object.cpp(29,27): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Object.cpp(30,25): warning C4244: '=': conversion from 'FLOAT' to 'LONG', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Object.cpp(31,27): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Object.cpp(44,26): warning C4244: '=': conversion from 'FLOAT' to 'LONG', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Object.cpp(45,27): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Object.cpp(46,25): warning C4244: '=': conversion from 'FLOAT' to 'LONG', possible loss of data
+  Generating Code...
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Object.cpp(47,27): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+  Compiling...
+  ObjectManager.cpp
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Game.cpp(74): warning C4715: 'Game::InitWindow': not all control paths return a value
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Game.cpp(74): warning C4715: C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\ObjectManager.cpp(176,22): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  pendulum.cpp
+  PointMap.cpp
+  Scene.cpp
+  Sound.cpp
+  Sprite.cpp
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\ObjectManager.cpp(176,19): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\ObjectManager.cpp(176,19): warning C4244: C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\ObjectManager.cpp(176,19): warning C4244: C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\ObjectManager.cpp(176,19): warning C4244: C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\ObjectManager.cpp(176,19): warning C4244: C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Sprite.cpp(54,20): warning C4244: 'return': conversion from 'LONG' to 'float', possible loss of data
+  SpriteSheet.cpp
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Sprite.cpp(58,21): warning C4244: 'return': conversion from 'LONG' to 'float', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\SpriteSheet.cpp(66,25): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\SpriteSheet.cpp(67,24): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\SpriteSheet.cpp(68,25): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\SpriteSheet.cpp(69,25): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\SpriteSheet.cpp(84,25): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\SpriteSheet.cpp(85,25): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\SpriteSheet.cpp(97,27): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+  Stage.cpp
+  Text.cpp
+  TileSet.cpp
+  tinystr.cpp
+  tinyxml.cpp
+  tinyxmlerror.cpp
+  tinyxmlparser.cpp
+  Viewport.cpp
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\SpriteSheet.cpp(98,27): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\SpriteSheet.cpp(98,27): warning C4244: C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\SpriteSheet.cpp(98,27): warning C4244: C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Viewport.cpp(113,27): warning C4244: '=': conversion from 'FLOAT' to 'LONG', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Viewport.cpp(114,26): warning C4244: '=': conversion from 'FLOAT' to 'LONG', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Viewport.cpp(115,25): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Viewport.cpp(116,25): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Viewport.cpp(138,22): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+  WinMain.cpp
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Viewport.cpp(145,22): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\Viewport.cpp(145,22): warning C4244: C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\WinMain.cpp(15,33): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+  Generating Code...
+N:\Aladdin\Aladdin-genesis\04-Collision\AladdiGameC\WinMain.cpp(15,23): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+  AladdiGameC.vcxproj -> N:\Aladdin\Aladdin-genesis\04-Collision\Debug\AladdiGameC.exe
