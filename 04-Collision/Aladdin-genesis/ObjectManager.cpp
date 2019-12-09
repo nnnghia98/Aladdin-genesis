@@ -29,7 +29,7 @@ void ObjectManager::Init(Graphic* graphic)
 	infoBrick = new SpriteSheet("./Resource Files/Brickxml.xml");
 	//
 	spritePendu = new Sprite(graphic, "./Resource Files/pendulum.png", D3DCOLOR_XRGB(163, 73, 164));
-	infoPendu = new SpriteSheet("./Resource Files/conlacxml.xml");
+	infoPendu = new SpriteSheet("./Resource Files/ballxml.xml");
 
 	spriteDrill = new Sprite(graphic, "./Resource Files/arrow.png", D3DCOLOR_XRGB(163, 73, 164));
 	infoDrill = new SpriteSheet("./Resource Files/arrow.xml");
