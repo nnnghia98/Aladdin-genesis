@@ -1,0 +1,144 @@
+﻿  jsoncpp.cpp
+  Aladdin.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\Dependencies\JsonCpp\jsoncpp.cpp(71,10): fatal error C1083: Cannot open include file: './JsonCpp/json/json.h': No such file or directory
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+  AppleItem.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\MapGame.h(4,10): fatal error C1083: Cannot open include file: 'JsonCpp/json/json.h': No such file or directory
+  appleWeapon.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+  Audio.cpp
+  BarrierItem.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\MapGame.h(4,10): fatal error C1083: Cannot open include file: 'JsonCpp/json/json.h': No such file or directory
+  BatItem.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+  BoneWeapon.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\MapGame.h(4,10): fatal error C1083: Cannot open include file: 'JsonCpp/json/json.h': No such file or directory
+  BossJafar.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+  ButtressItem.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\MapGame.h(4,10): fatal error C1083: Cannot open include file: 'JsonCpp/json/json.h': No such file or directory
+  Camera.cpp
+  ChainItem.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+  Collision.cpp
+  Column_OutItem.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+  debug.cpp
+  dsutil.cpp
+  dxutil.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\dxutil.cpp(60,1): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(90): message : see declaration of 'strcat'
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\dxutil.cpp(112,1): error C4996: '_tcsncpy': This function or variable may be unsafe. Consider using _tcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\tchar.h(1551): message : see declaration of '_tcsncpy'
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\dxutil.cpp(136,1): error C4996: '_tcsncpy': This function or variable may be unsafe. Consider using _tcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\tchar.h(1551): message : see declaration of '_tcsncpy'
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\dxutil.cpp(160,1): error C4996: '_tcsncpy': This function or variable may be unsafe. Consider using _tcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\tchar.h(1551): message : see declaration of '_tcsncpy'
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\dxutil.cpp(580,1): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message : see declaration of 'strncpy'
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\dxutil.cpp(630,1): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message : see declaration of 'strncpy'
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\dxutil.cpp(711,1): error C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1961): message : see declaration of '_snprintf'
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\dxutil.cpp(730,1): error C4996: '_tcsncpy': This function or variable may be unsafe. Consider using _tcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\tchar.h(1551): message : see declaration of '_tcsncpy'
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\dxutil.cpp(745,1): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : see declaration of 'strcpy'
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\dxutil.cpp(760,1): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : see declaration of 'strcpy'
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\dxutil.cpp(769,1): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : see declaration of 'strcpy'
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\dxutil.cpp(781,1): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : see declaration of 'strcpy'
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\dxutil.cpp(842,1): error C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1400): message : see declaration of '_vsnprintf'
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\dxutil.cpp(862,1): error C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2263): message : see declaration of 'sscanf'
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\dxutil.cpp(900,1): error C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Entity.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1961): message : see declaration of '_snprintf'
+  ExitItem.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+  FireIdle.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+  Generating Code...
+  Compiling...
+  FireRun.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+  Game.cpp
+  GemItem.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+  GenieItem.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\MapGame.h(4,10): fatal error C1083: Cannot open include file: 'JsonCpp/json/json.h': No such file or directory
+  Graphics.cpp
+  Grid.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+  Ground.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\Grid.h(5,10): fatal error C1083: Cannot open include file: 'JsonCpp/json/json.h': No such file or directory
+  HakimItem.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+  Heart_BalloonItem.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\MapGame.h(4,10): fatal error C1083: Cannot open include file: 'JsonCpp/json/json.h': No such file or directory
+  HUD_Info.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+  Image.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\Image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+  Input.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\Image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\Input.cpp(106,13): warning C4244: 'argument': conversion from 'WPARAM' to '_Elem', possible loss of data
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\Input.cpp(106,13): warning C4244:         with
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\Input.cpp(106,13): warning C4244:         [
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\Input.cpp(106,13): warning C4244:             _Elem=char
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\Input.cpp(106,13): warning C4244:         ]
+  Iron_StepItem.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\Input.cpp(107,12): warning C4244: '=': conversion from 'WPARAM' to 'char', possible loss of data
+  MapGame.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+  NahbiItem.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\MapGame.h(4,10): fatal error C1083: Cannot open include file: 'JsonCpp/json/json.h': No such file or directory
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+  PeddlerItem.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\MapGame.h(4,10): fatal error C1083: Cannot open include file: 'JsonCpp/json/json.h': No such file or directory
+  PillarItem.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+  PodiumItem.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+  RedIntro_Map.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+  SceneGame.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\Image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+  Generating Code...
+  Compiling...
+  SceneIntro.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\MapGame.h(4,10): fatal error C1083: Cannot open include file: 'JsonCpp/json/json.h': No such file or directory
+  SceneManager.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\Image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+  SkeletonItem.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\MapGame.h(4,10): fatal error C1083: Cannot open include file: 'JsonCpp/json/json.h': No such file or directory
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+  SpearItem.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\MapGame.h(4,10): fatal error C1083: Cannot open include file: 'JsonCpp/json/json.h': No such file or directory
+  StallItem.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+  StarWeapon.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+  SwordWeapon.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+  Text.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+  Texture.cpp
+  TextureManager.cpp
+  VaseItem.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+  WinMain.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration
+  WoodItem.cpp
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\MapGame.h(4,10): fatal error C1083: Cannot open include file: 'JsonCpp/json/json.h': No such file or directory
+  Generating Code...
+N:\Aladdin\Aladdin-genesis\GameSE_102_K11\GameProject\image.h(181,32): error C4596: 'initialize': illegal qualified name in member declaration

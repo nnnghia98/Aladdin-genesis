@@ -1,6 +1,0 @@
-﻿D:\Microsoft Visual Studio\IDE\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (AladdiGameC.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  ObjectManager.cpp
-  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-N:\Aladdin\Aladdin-genesis\04-Collision\Aladdin-genesis\ObjectManager.cpp(176,22): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-N:\Aladdin\Aladdin-genesis\04-Collision\Aladdin-genesis\ObjectManager.cpp(176,19): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  Aladdin-genesis.vcxproj -> N:\Aladdin\Aladdin-genesis\04-Collision\Aladdin-genesis\Debug\Aladdin-genesis.exe
