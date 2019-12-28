@@ -137,7 +137,7 @@ void SceneGame::OnKeyDown(int KeyCode)
 	DebugOut((wchar_t*)L"nhan key %d\n", KeyCode);
 	switch (KeyCode)
 	{
-	case DIK_V:
+	case DIK_X:
 		DebugOut((wchar_t*)L"nhan key X");
 		aladdin->isAttacking = true;
 		if (aladdin->isJumping)
@@ -152,7 +152,7 @@ void SceneGame::OnKeyDown(int KeyCode)
 			aladdin->SetCurrentState(ALADDIN_STAYING_COMBO_ATTACKING);
 		else aladdin->SetCurrentState(ALADDIN_STAYING_ATTACKING);
 		break;
-	case DIK_B:
+	case DIK_Z:
 		aladdin->isAttacking = true;
 		if (aladdin->isJumping)
 			aladdin->SetCurrentState(ALADDIN_JUMPING_ATTACKING_BY_APPLE);
