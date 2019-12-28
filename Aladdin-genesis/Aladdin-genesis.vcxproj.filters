@@ -40,6 +40,12 @@
     <Filter Include="GameObjects\Enemy">
       <UniqueIdentifier>{19e3edb2-2f39-4c9b-a29e-e5ce2de5409c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GameObjects\Enemy\Jafar">
+      <UniqueIdentifier>{cd69697b-865b-4bc9-95c0-d0c772cc5b77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Enemy\Creep">
+      <UniqueIdentifier>{7b3f898e-4b38-4a12-a74c-ec1bdb8c3dc1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -114,15 +120,6 @@
     <ClCompile Include="Rope.cpp">
       <Filter>GameObjects\MapObject</Filter>
     </ClCompile>
-    <ClCompile Include="EnemyBat.cpp">
-      <Filter>GameObjects\Enemy</Filter>
-    </ClCompile>
-    <ClCompile Include="EnemySkeleton.cpp">
-      <Filter>GameObjects\Enemy</Filter>
-    </ClCompile>
-    <ClCompile Include="Skeleton.cpp">
-      <Filter>GameObjects\Enemy</Filter>
-    </ClCompile>
     <ClCompile Include="Foreground.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -137,15 +134,6 @@
     </ClCompile>
     <ClCompile Include="dxutil.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Jafar.cpp">
-      <Filter>GameObjects\Enemy</Filter>
-    </ClCompile>
-    <ClCompile Include="Magic.cpp">
-      <Filter>GameObjects\Enemy</Filter>
-    </ClCompile>
-    <ClCompile Include="Flame.cpp">
-      <Filter>GameObjects\Enemy</Filter>
     </ClCompile>
     <ClCompile Include="PointReset.cpp">
       <Filter>GameObjects\MapObject</Filter>
@@ -177,11 +165,29 @@
     <ClCompile Include="SceneWin.cpp">
       <Filter>Scene</Filter>
     </ClCompile>
-    <ClCompile Include="EnemySmall.cpp">
-      <Filter>GameObjects\Enemy</Filter>
+    <ClCompile Include="Jafar.cpp">
+      <Filter>GameObjects\Enemy\Jafar</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBat.cpp">
+      <Filter>GameObjects\Enemy\Creep</Filter>
     </ClCompile>
     <ClCompile Include="EnemyBig.cpp">
-      <Filter>GameObjects\Enemy</Filter>
+      <Filter>GameObjects\Enemy\Creep</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySkeleton.cpp">
+      <Filter>GameObjects\Enemy\Creep</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySmall.cpp">
+      <Filter>GameObjects\Enemy\Creep</Filter>
+    </ClCompile>
+    <ClCompile Include="Flame.cpp">
+      <Filter>GameObjects\Enemy\Creep</Filter>
+    </ClCompile>
+    <ClCompile Include="Magic.cpp">
+      <Filter>GameObjects\Enemy\Creep</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton.cpp">
+      <Filter>GameObjects\Enemy\Creep</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -260,15 +266,6 @@
     <ClInclude Include="Rope.h">
       <Filter>GameObjects\MapObject</Filter>
     </ClInclude>
-    <ClInclude Include="Skeleton.h">
-      <Filter>GameObjects\Enemy</Filter>
-    </ClInclude>
-    <ClInclude Include="EnemyBat.h">
-      <Filter>GameObjects\Enemy</Filter>
-    </ClInclude>
-    <ClInclude Include="EnemySkeleton.h">
-      <Filter>GameObjects\Enemy</Filter>
-    </ClInclude>
     <ClInclude Include="Foreground.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -280,15 +277,6 @@
     </ClInclude>
     <ClInclude Include="dxutil.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Jafar.h">
-      <Filter>GameObjects\Enemy</Filter>
-    </ClInclude>
-    <ClInclude Include="Magic.h">
-      <Filter>GameObjects\Enemy</Filter>
-    </ClInclude>
-    <ClInclude Include="Flame.h">
-      <Filter>GameObjects\Enemy</Filter>
     </ClInclude>
     <ClInclude Include="Sound.h">
       <Filter>Source Files</Filter>
@@ -323,11 +311,29 @@
     <ClInclude Include="SceneWin.h">
       <Filter>Scene</Filter>
     </ClInclude>
-    <ClInclude Include="EnemySmall.h">
-      <Filter>GameObjects\Enemy</Filter>
+    <ClInclude Include="Jafar.h">
+      <Filter>GameObjects\Enemy\Jafar</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBat.h">
+      <Filter>GameObjects\Enemy\Creep</Filter>
     </ClInclude>
     <ClInclude Include="EnemyBig.h">
-      <Filter>GameObjects\Enemy</Filter>
+      <Filter>GameObjects\Enemy\Creep</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySkeleton.h">
+      <Filter>GameObjects\Enemy\Creep</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySmall.h">
+      <Filter>GameObjects\Enemy\Creep</Filter>
+    </ClInclude>
+    <ClInclude Include="Flame.h">
+      <Filter>GameObjects\Enemy\Creep</Filter>
+    </ClInclude>
+    <ClInclude Include="Magic.h">
+      <Filter>GameObjects\Enemy\Creep</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>GameObjects\Enemy\Creep</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -28,7 +28,7 @@ void SceneGame::KeyState(BYTE * state)
 		{
 			if (!aladdin->isClimbing)
 				if (!aladdin->isJumping)
-					if (!Game::GetInstance()->IsKeyDown(DIK_C))
+					if (!Game::GetInstance()->IsKeyDown(DIK_SPACE))
 					{
 						if (!aladdin->isCollisionWithWall) {
 							aladdin->SetCurrentState(ALADDIN_RUNNING1);
@@ -89,7 +89,7 @@ void SceneGame::KeyState(BYTE * state)
 				aladdin->SetCurrentState(ALADDIN_IDLE_LOOK_UP);
 			}
 		}
-		else if (Game::GetInstance()->IsKeyDown(DIK_C))
+		else if (Game::GetInstance()->IsKeyDown(DIK_SPACE))
 		{
 			if (!aladdin->isJumping)
 			{
@@ -152,7 +152,7 @@ void SceneGame::OnKeyDown(int KeyCode)
 			aladdin->SetCurrentState(ALADDIN_STAYING_COMBO_ATTACKING);
 		else aladdin->SetCurrentState(ALADDIN_STAYING_ATTACKING);
 		break;
-	case DIK_Z:
+	case DIK_C:
 		aladdin->isAttacking = true;
 		if (aladdin->isJumping)
 			aladdin->SetCurrentState(ALADDIN_JUMPING_ATTACKING_BY_APPLE);
