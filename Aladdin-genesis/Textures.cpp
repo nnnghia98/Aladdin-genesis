@@ -68,7 +68,7 @@ void Textures::LoadResources()
 	Add(ID_TEX_RESOURCE_MAP1, (wchar_t*)L"Resources\\textures\\resource1.png", D3DCOLOR_XRGB(163, 73, 164));
 	Add(ID_TEX_RESOURCE_MAP1A, (wchar_t*)L"Resources\\textures\\resource1a.png", D3DCOLOR_XRGB(163, 73, 164));
 	Add(ID_TEX_ITEM, (wchar_t*)L"Resources\\textures\\item.png", D3DCOLOR_XRGB(248, 0, 248));
-	Add(ID_TEX_STATEDISAPPEAR, (wchar_t*)L"Resources\\textures\\statebienmat.png", D3DCOLOR_XRGB(186, 254, 202));
+	Add(ID_TEX_STATEDISAPPEAR, (wchar_t*)L"Resources\\textures\\destroy.png", D3DCOLOR_XRGB(186, 254, 202));
 	Add(ID_TEX_SKELETON, (wchar_t*)L"Resources\\textures\\skeleton.png", D3DCOLOR_XRGB(255, 0, 255));
 	Add(ID_TEX_BOSS, (wchar_t*)L"Resources\\textures\\boss.png", D3DCOLOR_XRGB(186, 254, 202));
 	Add(ID_TEX_BAT, (wchar_t*)L"Resources\\textures\\bat.png", D3DCOLOR_XRGB(255, 0, 255));

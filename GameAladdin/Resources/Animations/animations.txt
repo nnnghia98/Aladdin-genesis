@@ -1,3 +1,0 @@
-// them sprite vao
-// tao cac animation
-// them animation vao animations

@@ -1,9 +1,9 @@
-﻿#include "EnemyFat.h"
+﻿#include "EnemyBig.h"
 #include "Sound.h"
 
-bool EnemyFat::isLoadedSprite = false;
+bool EnemyBig::isLoadedSprite = false;
 
-void EnemyFat::LoadSprite()
+void EnemyBig::LoadSprite()
 {
 	Sprites * sprites = Sprites::GetInstance();
 	LPDIRECT3DTEXTURE9 texture = Textures::GetInstance()->Get(ID_TEX_ENEMY);
@@ -47,7 +47,7 @@ void EnemyFat::LoadSprite()
 	isLoadedSprite = true;
 }
 
-EnemyFat::EnemyFat(int id, float x, float y, int width, int height, oType type, int leftMargin, int rightMargin)
+EnemyBig::EnemyBig(int id, float x, float y, int width, int height, oType type, int leftMargin, int rightMargin)
 {
 	GameObject::GameObject();
 	type = ENEMYFAT;
@@ -73,12 +73,12 @@ EnemyFat::EnemyFat(int id, float x, float y, int width, int height, oType type, 
 	isOnlyStay = false;
 }
 
-EnemyFat::~EnemyFat()
+EnemyBig::~EnemyBig()
 {
 }
 
 
-void EnemyFat::LoadResource()
+void EnemyBig::LoadResource()
 {
 
 	//Animations * anim = Animations::GetInstance();
@@ -138,7 +138,7 @@ void EnemyFat::LoadResource()
 	this->animations[ENEMY_DEATH] = ani;
 }
 
-void EnemyFat::GetBoundingBox(float & left, float & top, float & right, float & bottom)
+void EnemyBig::GetBoundingBox(float & left, float & top, float & right, float & bottom)
 {
 	if (currentState != ENEMY_DEATH || health > 0)
 	{
@@ -181,7 +181,7 @@ void EnemyFat::GetBoundingBox(float & left, float & top, float & right, float & 
 	}
 }
 
-void EnemyFat::Update(DWORD dt, vector<LPGAMEOBJECT>* coObjects)
+void EnemyBig::Update(DWORD dt, vector<LPGAMEOBJECT>* coObjects)
 {
 	GameObject::Update(dt);
 	if (!isOnlyStay)
@@ -214,14 +214,14 @@ void EnemyFat::Update(DWORD dt, vector<LPGAMEOBJECT>* coObjects)
 	}
 }
 
-void EnemyFat::Render(int flip)
+void EnemyBig::Render(int flip)
 {
 	if (this->health <= 0)
 		return;
 	animations[currentState]->Render(x-Camera::GetInstance()->GetXCam(), y - Camera::GetInstance()->GetYCam(), 255, nx, 47);
 }
 
-void EnemyFat::SetCurrentState(int state)
+void EnemyBig::SetCurrentState(int state)
 {
 	if (!isOnlyStay)
 		return;

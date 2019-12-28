@@ -1587,7 +1587,7 @@ void Aladdin::CollisionWithEnemy(vector<LPGAMEOBJECT>* coObject)
 					if (isAttackBySword())
 					{
 						list_enemy[i]->SetCurrentState(ENEMY_DEATH);
-						EnemyFat * e = (EnemyFat *)list_enemy[i];
+						EnemyBig * e = (EnemyBig *)list_enemy[i];
 						e->isOnlyStay = true;
 					}
 
@@ -1603,7 +1603,7 @@ void Aladdin::CollisionWithEnemy(vector<LPGAMEOBJECT>* coObject)
 					if (isAttackBySword())
 					{
 						list_enemy[i]->SetCurrentState(ENEMY_DEATH);
-						EnemyThin * e = (EnemyThin *)list_enemy[i];
+						EnemySmall * e = (EnemySmall *)list_enemy[i];
 						e->isOnlyStay = true;
 					}
 

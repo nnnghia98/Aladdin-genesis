@@ -132,11 +132,11 @@ void Jafar::LoadResource()
 
 Jafar::Jafar()
 {
-	health = 30;
+	health = 16;
 	x = 400;
 	y = 280;
-	width = 37;
-	height = 50;
+	width = 20;
+	height = 22;
 	vx = 0;
 	vy = 0;
 	isSnake = false;

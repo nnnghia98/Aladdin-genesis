@@ -1,8 +1,8 @@
-#include "EnemyThin.h"
+#include "EnemySmall.h"
 
-bool EnemyThin::isLoadedSprite = false;
+bool EnemySmall::isLoadedSprite = false;
 
-void EnemyThin::LoadSprite()
+void EnemySmall::LoadSprite()
 {
 	Sprites * sprites = Sprites::GetInstance();
 	LPDIRECT3DTEXTURE9 texture = Textures::GetInstance()->Get(ID_TEX_ENEMY);
@@ -36,7 +36,7 @@ void EnemyThin::LoadSprite()
 	isLoadedSprite = true;
 }
 
-EnemyThin::EnemyThin(int id, float x, float y, int width, int height, oType type, int leftMargin, int rightMargin)
+EnemySmall::EnemySmall(int id, float x, float y, int width, int height, oType type, int leftMargin, int rightMargin)
 {
 	GameObject::GameObject();
 	type = ENEMYTHIN;
@@ -62,12 +62,12 @@ EnemyThin::EnemyThin(int id, float x, float y, int width, int height, oType type
 	isOnlyStay = false;
 }
 
-EnemyThin::~EnemyThin()
+EnemySmall::~EnemySmall()
 {
 }
 
 
-void EnemyThin::LoadResource()
+void EnemySmall::LoadResource()
 {
 
 	//Animations * anim = Animations::GetInstance();
@@ -118,7 +118,7 @@ void EnemyThin::LoadResource()
 	this->animations[ENEMY_DEATH] = ani;
 }
 
-void EnemyThin::GetBoundingBox(float & left, float & top, float & right, float & bottom)
+void EnemySmall::GetBoundingBox(float & left, float & top, float & right, float & bottom)
 {
 	if (currentState != ENEMY_DEATH || health > 0)
 	{
@@ -153,7 +153,7 @@ void EnemyThin::GetBoundingBox(float & left, float & top, float & right, float &
 	}
 }
 
-void EnemyThin::Update(DWORD dt, vector<LPGAMEOBJECT>* coObjects)
+void EnemySmall::Update(DWORD dt, vector<LPGAMEOBJECT>* coObjects)
 {
 	GameObject::Update(dt);
 	if (!isOnlyStay)
@@ -186,7 +186,7 @@ void EnemyThin::Update(DWORD dt, vector<LPGAMEOBJECT>* coObjects)
 	}
 }
 
-void EnemyThin::Render(int flip)
+void EnemySmall::Render(int flip)
 {
 	if (this->health <= 0)
 		return;
@@ -194,7 +194,7 @@ void EnemyThin::Render(int flip)
 	//DebugOut((wchar_t*)L"cur state %d, total = %d, frame = %d, health = %d\n", currentState, animations[currentState]->GetCountFrame(), animations[currentState]->GetCurrentFrame(), health);
 }
 
-void EnemyThin::SetCurrentState(int state)
+void EnemySmall::SetCurrentState(int state)
 {
 	if (!isOnlyStay)
 		return;

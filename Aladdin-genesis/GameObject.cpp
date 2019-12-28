@@ -101,7 +101,6 @@ void GameObject::FilterCollision(vector<LPCOLLISIONEVENT>& coEvents, vector<LPCO
 void GameObject::AddAnimation(int aniId)
 {
 	LPANIMATION ani = Animations::GetInstance()->Get(aniId);
-	//animations.push_back(ani);
 }
 
 void GameObject::Update(DWORD dt, vector<LPGAMEOBJECT>* coObjects)

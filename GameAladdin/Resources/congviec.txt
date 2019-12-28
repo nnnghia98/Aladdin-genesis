@@ -1,8 +1,0 @@
-- map: done
-- camera: done
-- grid: 80% (waiting load all object)
-- Game Object: 80%
-- Aladdin:
-- Enemy:
-- Animation: 50%(waiting load animation)
-- Collision: not yet

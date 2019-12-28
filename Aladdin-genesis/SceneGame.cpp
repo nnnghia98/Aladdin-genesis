@@ -318,7 +318,7 @@ void SceneGame::Update(DWORD dt)
 			x->Update(dt, &obj);
 			if (x->GetType() == ENEMYFAT)
 			{
-				EnemyFat * e = (EnemyFat *)x;
+				EnemyBig * e = (EnemyBig *)x;
 				float x, y;
 				aladdin->GetPosition(x, y);
 				if (x < e->LeftMargin)
@@ -328,7 +328,7 @@ void SceneGame::Update(DWORD dt)
 			}
 			if (x->GetType() == ENEMYTHIN)
 			{
-				EnemyThin * e = (EnemyThin *)x;
+				EnemySmall * e = (EnemySmall *)x;
 				float ax, ay;
 				aladdin->GetPosition(ax, ay);
 				if (ax < e->LeftMargin)

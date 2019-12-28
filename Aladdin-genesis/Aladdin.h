@@ -62,8 +62,8 @@
 #include "Genie.h"
 #include "Heart.h"
 #include "RestartPoint.h"
-#include "EnemyFat.h"
-#include "EnemyThin.h"
+#include "EnemyBig.h"
+#include "EnemySmall.h"
 #include "EnemyBat.h"
 #include "EnemySkeleton.h"
 

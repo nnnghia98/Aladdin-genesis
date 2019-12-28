@@ -114,13 +114,7 @@
     <ClCompile Include="Rope.cpp">
       <Filter>GameObjects\MapObject</Filter>
     </ClCompile>
-    <ClCompile Include="EnemyFat.cpp">
-      <Filter>GameObjects\Enemy</Filter>
-    </ClCompile>
     <ClCompile Include="EnemyBat.cpp">
-      <Filter>GameObjects\Enemy</Filter>
-    </ClCompile>
-    <ClCompile Include="EnemyThin.cpp">
       <Filter>GameObjects\Enemy</Filter>
     </ClCompile>
     <ClCompile Include="EnemySkeleton.cpp">
@@ -182,6 +176,12 @@
     </ClCompile>
     <ClCompile Include="SceneWin.cpp">
       <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySmall.cpp">
+      <Filter>GameObjects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBig.cpp">
+      <Filter>GameObjects\Enemy</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -260,9 +260,6 @@
     <ClInclude Include="Rope.h">
       <Filter>GameObjects\MapObject</Filter>
     </ClInclude>
-    <ClInclude Include="EnemyFat.h">
-      <Filter>GameObjects\Enemy</Filter>
-    </ClInclude>
     <ClInclude Include="Skeleton.h">
       <Filter>GameObjects\Enemy</Filter>
     </ClInclude>
@@ -270,9 +267,6 @@
       <Filter>GameObjects\Enemy</Filter>
     </ClInclude>
     <ClInclude Include="EnemySkeleton.h">
-      <Filter>GameObjects\Enemy</Filter>
-    </ClInclude>
-    <ClInclude Include="EnemyThin.h">
       <Filter>GameObjects\Enemy</Filter>
     </ClInclude>
     <ClInclude Include="Foreground.h">
@@ -328,6 +322,12 @@
     </ClInclude>
     <ClInclude Include="SceneWin.h">
       <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySmall.h">
+      <Filter>GameObjects\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBig.h">
+      <Filter>GameObjects\Enemy</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

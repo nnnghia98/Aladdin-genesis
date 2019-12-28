@@ -34,7 +34,7 @@ void SceneIntro::Update(DWORD dt)
 	if (a < 10)
 		SceneManager::GetInstance()->SetScene(SceneManager::GetInstance()->sceneGame);
 
-	if (a >= 255)
+	if (a >= 100)
 		flag = -1;
 	a += 1*flag;
 }

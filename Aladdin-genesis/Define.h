@@ -67,8 +67,6 @@ if(ptr) \
 #define ENEMY_ATTACKING 3
 #define ENEMY_DEATH 4
 
-
-
 //object type
 enum oType
 {
@@ -78,7 +76,7 @@ enum oType
 	APPLE = 3,
 	WALL = 4,
 	BRICK = 5,
-	ROPE = 6, // dây thừng
+	ROPE = 6,
 	MOVINGBRICK = 7,
 	ARROW = 8,
 	REDJEWEL = 9,

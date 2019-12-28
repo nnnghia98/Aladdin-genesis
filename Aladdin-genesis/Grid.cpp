@@ -145,11 +145,11 @@ void Grid::LoadGrid(int idMap)
 			break;
 		case ENEMYFAT:
 			input >> lm >> rm;
-			gobj = new EnemyFat(id, x, y, width, height, ENEMYFAT, lm, rm);
+			gobj = new EnemyBig(id, x, y, width, height, ENEMYFAT, lm, rm);
 			break;
 		case ENEMYTHIN:
 			input >> lm >> rm;
-			gobj = new EnemyThin(id, x, y, width, height, ENEMYTHIN, lm, rm);
+			gobj = new EnemySmall(id, x, y, width, height, ENEMYTHIN, lm, rm);
 			break;
 		case ENEMYBAT:
 			gobj = new EnemyBat(id, x, y, width, height, ENEMYBAT);
