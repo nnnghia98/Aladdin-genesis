@@ -152,7 +152,7 @@ void SceneGame::OnKeyDown(int KeyCode)
 			aladdin->SetCurrentState(ALADDIN_STAYING_COMBO_ATTACKING);
 		else aladdin->SetCurrentState(ALADDIN_STAYING_ATTACKING);
 		break;
-	case DIK_C:
+	case DIK_Z:
 		aladdin->isAttacking = true;
 		if (aladdin->isJumping)
 			aladdin->SetCurrentState(ALADDIN_JUMPING_ATTACKING_BY_APPLE);

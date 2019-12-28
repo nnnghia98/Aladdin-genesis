@@ -208,7 +208,7 @@ void Jafar::Update(DWORD dt, vector<LPGAMEOBJECT>* coObjects)
 	}
 	if (!isSnake)
 	{
-		if (animations[JAFAR_ATTACK]->GetCurrentFrame() > 0 && dtime > 100)
+		if (animations[JAFAR_ATTACK]->GetCurrentFrame() > 0 && dtime > 300)
 		{
 			GameObject * w = new Magic(x, y, width, height);
 	 		weapon.push_back(w);
