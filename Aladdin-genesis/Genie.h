@@ -2,8 +2,8 @@
 #define __GENIE__
 #include  "GameObject.h"
 
-#define GENIE_STATE_1 1 // Trạng thái: không có va chạm với aladdin
-#define GENIE_STATE_2 2 // Trạng thái: khi va chạm với aladdin -> phát nổ
+#define GENIE_STATE_1 1 // Trạng thái bình thường
+#define GENIE_STATE_2 2 // Trạng thái khi va chạm
 
 class Genie : public GameObject
 {

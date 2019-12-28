@@ -2,8 +2,8 @@
 #define __RESTARTPOINT__
 #include  "GameObject.h"
 
-#define RESTARTPOINT_STATE_1 1 // Trạng thái: không có va chạm với aladdin
-#define RESTARTPOINT_STATE_2 2 // Trạng thái: khi va chạm với aladdin -> phát nổ
+#define RESTARTPOINT_STATE_1 1 // Trạng thái bình thường
+#define RESTARTPOINT_STATE_2 2 // Trạng thái khi va chạm
 
 class RestartPoint : public GameObject
 {

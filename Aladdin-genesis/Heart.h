@@ -2,8 +2,8 @@
 #define __HEART__
 #include  "GameObject.h"
 
-#define HEART_STATE_1 1 // Trạng thái: không có va chạm với aladdin
-#define HEART_STATE_2 2 // Trạng thái: khi va chạm với aladdin -> phát nổ
+#define HEART_STATE_1 1 // Trạng thái bình thường
+#define HEART_STATE_2 2 // Trạng thái: khi va chạm
 
 class Heart : public GameObject
 {

@@ -201,13 +201,14 @@ void Jafar::Update(DWORD dt, vector<LPGAMEOBJECT>* coObjects)
 		}
 	}
 	if (health < 15)
+		//Máu d??i 15 thì bi?n thành snake
 	{
 		currentState = SNAKE_ATTACK;
 		isSnake = true;
-		//return;
 	}
 	if (!isSnake)
 	{
+		//Tr?ng thái bình th??ng
 		if (animations[JAFAR_ATTACK]->GetCurrentFrame() > 0 && dtime > 300)
 		{
 			GameObject * w = new Magic(x, y, width, height);
@@ -232,10 +233,12 @@ void Jafar::Update(DWORD dt, vector<LPGAMEOBJECT>* coObjects)
 
 void Jafar::Render(int flip)
 {
+	// N?u Jafar không ph?i là r?n 
 	if (!isSnake)
 	{
 		animations[JAFAR_ATTACK]->Render(x- Camera::GetInstance()->GetXCam(), y-Camera::GetInstance()->GetYCam(), 255, nx);
 	}
+	// Khi Jafar chuy?n sang tr?ng thái snake
 	else
 	{
 		animations[SNAKE_ATTACK]->Render(x - Camera::GetInstance()->GetXCam(), y - Camera::GetInstance()->GetYCam(), 255, nx);

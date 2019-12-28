@@ -2,8 +2,8 @@
 #define __APPLE__
 #include  "GameObject.h"
 
-#define APPLE_STATE_1 1 // Trạng thái: không có va chạm với aladdin
-#define APPLE_STATE_2 2 // Trạng thái: khi va chạm với aladdin 
+#define APPLE_STATE_1 1 // Trạng thái bình thường
+#define APPLE_STATE_2 2 // Trạng thái va chạm 
 
 class Apple : public GameObject
 {

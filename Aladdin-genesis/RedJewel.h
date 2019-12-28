@@ -2,8 +2,8 @@
 #define __REDJEWEL__
 #include  "GameObject.h"
 
-#define REDJEWEL_STATE_1 1 // Trạng thái: không có va chạm với aladdin
-#define REDJEWEL_STATE_2 2 // Trạng thái: khi va chạm với aladdin -> phát nổ
+#define REDJEWEL_STATE_1 1 // Trạng thái bình thường
+#define REDJEWEL_STATE_2 2 // Trạng thái khi va chạm
 
 class RedJewel : public GameObject
 {
